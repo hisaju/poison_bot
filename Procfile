@@ -1,1 +1,1 @@
-worker: bundle exec ruby voice.rb
+discordbot: bundle exec ruby voice.rb
