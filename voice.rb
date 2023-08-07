@@ -14,4 +14,9 @@ bot.message do |event|
   end
 end
 
+bot.disconnected do |event|
+  puts "Disconnected, shutting down Discord bot"
+  exit(0)
+end
+
 bot.run
